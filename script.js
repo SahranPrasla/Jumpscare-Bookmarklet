@@ -7,7 +7,9 @@
     img.src = "images/creep.jpeg";
     document.body.appendChild(img);
     document.body.style.background = "black";
+    console,log('Here!')
+    }, 3000);
     setTimeout(function(){ 
       location.reload();
-    }, 3000);}, 5000);
+    }, 8000);
 }());
